@@ -1,0 +1,6 @@
+run: 2107_main.o 2107_heap.o
+	gcc -o 2107_main.o 2107_heap.o
+2107_main.o: 2107_main.c 2107_heap.h
+	gcc -c 2107_main.c
+2107_heap.o: 2107_heap.c 2107_heap.h
+	gcc -c 2107_heap.c

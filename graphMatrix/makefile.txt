@@ -1,0 +1,10 @@
+run: 2107_main.o 2107_graph.o
+	gcc -o run 2107_main.o 2107_graph.o 2107_queue.o 2107_stack.o
+2107_main.o: 2107_main.c 2107_graph.h
+	gcc -c 2107_main.c
+2107_graph.o: 2107_graph.c 2107_graph.h
+	gcc -c 2107_graph.c
+2107_stack.o: 2107_stack.c 2107_stack.h
+	gcc -c 2107_stack.c
+2107_queue.o: 2107_queue.c 2107_queue.h
+	gcc -c 2107_queue.c

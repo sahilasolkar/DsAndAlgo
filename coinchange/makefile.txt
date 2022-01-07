@@ -1,0 +1,6 @@
+run: 2107_main.o 2107_coin.o
+	gcc -o 2107_main.o 2107_coin.o
+2107_main.o: 2107_main.c 2107_coin.h
+	gcc -c 2107_main.c
+2107_coin.o: 2107_coin.c 2107_coin.h
+	gcc -c 2107_coin.c

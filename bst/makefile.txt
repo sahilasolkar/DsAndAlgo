@@ -1,0 +1,6 @@
+run: 2107_mainbst.o 2107_bst.o
+	gcc -o run 2107_mainbst.o 2107_bst.o
+main.o: 2107_mainbst.c 2107_bst.h
+	gcc -c 2107_mainbst.c
+stack.o: 2107_bst.c 2107_bst.h
+	gcc -c 2107_bst.c

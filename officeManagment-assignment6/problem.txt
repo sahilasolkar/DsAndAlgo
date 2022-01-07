@@ -1,0 +1,12 @@
+D’souza Designers is a much-sought interior designer firm which gets offers from numerous home-owners and shop-owners to renovate their homes/shops. The firm has two teams: one which handles home renovation and the other team which handles renovation for shops.
+The projects are taken up on a first-come first served basis. Work is done on a single project at a time by each of the teams.
+
+Write a menu driven program which will help the firm to keep track of the home/shop renovation offers. The program should be able to:
+Add a new offer under the appropriate category(home/shop)
+Mark an offer as completed.
+Display a list of new offers under the home renovation category
+Display a list of new offers under the shop renovation category
+Display a list of completed jobs under the home renovation category
+Display a list of completed jobs under the shop renovation category
+Display total profit earned (= total fee charged – total amount spent) on completed shop renovation offers and on completed home renovation offers
+You can include more functionalities too.

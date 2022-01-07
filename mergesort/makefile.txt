@@ -1,0 +1,6 @@
+run: 2107_main.o 2107_mergesort.o
+	gcc -o 2107_main.o 2107_mergesort.o
+2107_main.o: 2107_main.c 2107_mergesort.h
+	gcc -c 2107_main.c
+2107_mergesort.o: 2107_mergesort.c 2107_mergesort.h
+	gcc -c 2107_mergesort.c

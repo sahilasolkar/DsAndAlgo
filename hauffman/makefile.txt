@@ -1,0 +1,6 @@
+run: 2107_main.o 2107_hauffman.o
+	gcc -o 2107_main.o 2107_hauffman.o
+2107_main.o: 2107_main.c 2107_hauffman.h
+	gcc -c 2107_main.c
+2107_hauffman.o: 2107_hauffman.c 2107_hauffman.h
+	gcc -c 2107_hauffman.c
